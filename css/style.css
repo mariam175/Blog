@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+}
+.first{
+    /*margin: 2% 0  0 11%;*/
+    position:fixed;
+    top : 5%;
+    left : 11%;
+}
+ul{
+    margin-top: 10%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+ul li{
+    margin-left: 5%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin : 10% auto;
+}
+a:hover{
+    color:rgb(40, 91, 124);
+    text-decoration: underline;
+}
+a:active{
+    color:black;
+    text-decoration: underline;
+}
+h1{
+    font-family: sans-serif;
+    margin : 9% auto;
+}
+.disc{
+    color:darkgray;
+    margin : 10% auto;
+}
+.ic , .pro{
+    border-radius: 50%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.second{
+    margin: 4% 0  0 21%;
+}
+.info{
+    margin-top: 10%;
+    line-height: 50px;
+}
+.arti{
+    text-decoration: underline;
+}
+.second{
+    display: grid;
+    grid-template-columns: repeat(2 , 2fr);
+    grid-template-rows: repeat(2 , 2fr);
+    grid-gap: 2rem;
+}
+#fi{
+    position: absolute;
+    left:-70px;
+    top :30px;
+}
+#sec{
+    position: absolute;
+    left:800px;
+    top : 30px;
+}
+.ar1{
+    width:300px;
+    height:450px;
+    background-color:rgb(243, 243, 225);
+    box-shadow: 5px 5px 5px #aaaaaa;
+    border-radius: 5%;
+}
+.ar2{
+    width:300px;
+    height:450px;
+    background-color:#ffffee;
+    border-radius: 5%;
+    background-color:rgb(243, 243, 225);
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+.ar3{
+    width:300px;
+    height:450px;
+    background-color:darkgray;
+    border-radius: 5%;
+    background-color:rgb(243, 243, 225);
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+.ar4{
+    width:300px;
+    height:450px;
+    background-color:darkgray;
+    border-radius: 5%;
+    background-color:rgb(243, 243, 225);
+    box-shadow: 5px 5px 5px #aaaaaa;
+}
+.dis1{
+    border-radius: 5% 5% 0 0;
+}
+.con{
+    margin:5%;
+}
+.con p{
+    margin: 4% auto;
+}
+.con a{
+    color:rgba(0, 89, 255, 0.966);
+}
+button{
+    position:relative;
+    left: 255px;
+    padding: 10px 3px;
+    width:100px;
+    border-radius: 30px;
+    background-image:linear-gradient(to right,rgba(14, 90, 230, 0.966) , rgba(0, 225, 255, 0.966));
+    color: white;
+    margin-bottom: 50px;
+    transition: 0.5s;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.contain{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    transition: 1s;
+}
