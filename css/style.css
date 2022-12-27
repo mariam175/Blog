@@ -140,3 +140,6 @@ button:hover{
     position: relative;
     transition: 1s;
 }
+#sec{
+    display: none;
+}
